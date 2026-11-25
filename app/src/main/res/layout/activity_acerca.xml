@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#080D1A">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ACERCA DE NOCTIS"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOCTIS es una aplicación de ciencia ciudadana dedicada a la observación del cielo nocturno. Su objetivo es acercar la astronomía a cualquier persona y fomentar la participación en el estudio y la conservación de nuestros cielos."
+        android:textSize="16sp"
+        android:textColor="#B0BEC5"
+        android:gravity="center"
+        android:lineSpacingExtra="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Proyecto desarrollado para 2º DAM"
+        android:textSize="14sp"
+        android:textColor="#78909C"
+        android:layout_marginTop="32dp" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Volver"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>
